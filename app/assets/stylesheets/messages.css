@@ -74,8 +74,8 @@
   text-decoration: none;
   padding: 20px;
 }
-
-/*親要素*/.messages {
+/*親要素*/
+.messages {
   background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
@@ -112,8 +112,8 @@
 
 
 }
-
-/*親要素*/.form {
+/*親要素*/
+.form {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
@@ -126,21 +126,21 @@
   width: 100%;
 }
 
-.form-messages {
-  padding-left: 10px;
+.form-message {
   border: none;
-  width: 100%;
   height: 50px;
+  width: 100%;
+  padding-left: 10px;
 }
 
 .form-submit {
-  font-size: 16px;
   background-color: #38AEF0;
-  color: white;
   border: none;
-  padding: 0 20px;
-  margin-left: 15px;
+  color: white;
+  font-size: 16px;
   height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
 
 .form-image {
